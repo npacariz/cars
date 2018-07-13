@@ -10,7 +10,7 @@
     <ul>
         @foreach($cars as $car)
             <li>
-                Car name: {{$car->title}}
+            Car name:  <a href="/cars/{{$car->id}}">{{$car->title}}</a>
                 <br>
                 Car producer: {{$car->producer}}
                 <br>
