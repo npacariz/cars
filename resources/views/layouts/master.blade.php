@@ -8,16 +8,23 @@
     <title>Cars</title>
 </head>
 <body> 
-     <nav class="navbar navbar-light bg-light">
-        <form class="form-inline">
-          <a  href='/about' class="btn btn-outline-success" type="button">About</a>
-          <a  href='/cars' class="btn btn-outline-success" type="button">cars</a>
-        </form>
-    </nav>
 
+
+   
+   
     
     <div class="container">
+            
         <div class="jumbotron">
+                <nav class="navbar navbar-light bg-light">
+                        <form class="form-inline">
+                          <a  href='/about' class="btn btn-outline-success" type="button">About</a>
+                          <a  href='/cars' class="btn btn-outline-success" type="button">cars</a>
+                        </form>
+                    </nav>
+                
+                <h1>Car APP</h1>   
+
             @yield('content')
         </div>
     </div>
