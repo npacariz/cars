@@ -1,10 +1,11 @@
 @extends('layouts.master')
 
 @section('content')
+
     <ul>
         @foreach($cars as $car)
             <li>
-            Car name:  <a href="/cars/{{$car->id}}">{{$car->title}}</a>
+                Car name:  <a href="/cars/{{$car->id}}">{{$car->title}}</a>
                 <br>
                 Car producer: {{$car->producer}}
                 <br>

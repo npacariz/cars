@@ -8,6 +8,6 @@ class Car extends Model
 {
     protected $fillable = 
     [
-        'title','producer','number_of_door'
+        'title','producer','number_of_doors'
     ];
 }

@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
-
-About us!
-
+  <div>
+     About us!
+  </div>
 @endsection

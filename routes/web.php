@@ -13,9 +13,9 @@
 
 Route::get('/', function () {
 
-    $name = "Nikola";
+    $name = 'Nikola';
     $age = 29;
-    return view('welcome', compact('name', "age"));
+    return view('welcome', compact('name', 'age'));
 });
 
 
@@ -24,6 +24,6 @@ Route::get('/about', function() {
 });
 
 
-Route::get('/cars', "CarsController@index");
+Route::get('/cars', 'CarsController@index');
 
 Route::get('/cars/{id}','CarsController@show');

@@ -17,15 +17,13 @@
             
         <div class="jumbotron">
                 <nav class="navbar navbar-light bg-light">
-                        <form class="form-inline">
-                          <a  href='/about' class="btn btn-outline-success" type="button">About</a>
-                          <a  href='/cars' class="btn btn-outline-success" type="button">cars</a>
-                        </form>
-                    </nav>
+                    <a href='/about' class="btn btn-outline-success" type="button">About</a>
+                    <a href='/cars' class="btn btn-outline-success" type="button">Cars</a>
+                </nav>
                 
                 <h1>Car APP</h1>   
 
-            @yield('content')
+                @yield('content')
         </div>
     </div>
     
